@@ -4,8 +4,8 @@ class Student < User
 
   attr_reader :knowledge
 
-  def initializes
-    @knowledge = []    
+  def initialize
+    @knowledge = []
   end
 
 
